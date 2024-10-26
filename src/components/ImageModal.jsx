@@ -6,7 +6,7 @@ const ImageModal = (props) => {
  return (
   <Modal
      {...props}
-      size="md"
+      size="lg"
       centered
       >
       <Modal.Body>

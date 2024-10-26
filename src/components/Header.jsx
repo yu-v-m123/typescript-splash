@@ -6,7 +6,7 @@ const Header = ({children}) => {
    <>
      <div className="Header">
        <span className="Header__Logo">
-         TypeScrash
+         TypeSplash
        </span>
        {children}
      </div>
