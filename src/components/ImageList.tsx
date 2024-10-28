@@ -1,9 +1,10 @@
 import './ImageList.css';
 import React from 'react';
 import ImageCard from './ImageCard';
+import { ImageCardProps } from './ImageCard';
 
 type Props = {
-  images: [];
+  images: ImageCardProps[];
   term: string;
   page: number;
   setPage: (page: number) => void;
