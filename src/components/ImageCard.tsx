@@ -12,9 +12,8 @@ type Props = {
 };
 
 const ImageCard: React.FC<Props> = (props) => {
-  debugger
-  const [modalShow, setModalShow] = React.useState(false);
-  const [spans, setSpans] = React.useState(0);
+  const [modalShow, setModalShow] = React.useState<boolean>(false);
+  const [spans, setSpans] = React.useState<number>(0);
   const imageRef = React.useRef<HTMLImageElement>(null);
 
   const calculateSpans = () => {
